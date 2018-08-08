@@ -1,0 +1,89 @@
+/* This makes the stick footer */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body
+{
+    background-image: url("../images/textured_paper.png");
+    padding: 40px 0px 0px 0px;
+    /* margin-bottom: 60px; */
+}
+.navbar{
+    padding: .0rem 11%;
+    
+    
+    
+}
+
+.navbar-brand{
+    background: #4aaaa5;
+    padding: 25px;
+    border: 0px;
+    height: 80px;
+    text-align: center;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    width: 30%;
+    min-width: 140px;
+    max-width: 965px;
+    
+}
+p{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 18px;
+    color: #777777;
+}
+
+.jumbotron{
+    padding: 3% 5% 3% 5%;
+    max-width: 965px;
+}
+h1{ 
+    color:#4aaaa5;
+    font-size: 34px;   
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+hr{
+    border-color: #dedede;
+    border-width: 1.5px;
+    border-style:solid;
+}
+img{
+    max-width: 100%; 
+    height: auto;
+    
+}
+
+img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 72px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #666666;
+    color: #a7a6a6;
+    border-top-color: #4aaaa5;
+    border-width: 8px 0 0 0 ;
+    border-style:solid;
+
+    
+  }
+.footer-text{
+    color: #a7a6a6;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+ 
